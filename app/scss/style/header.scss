@@ -1,0 +1,30 @@
+.header{
+    &__container{
+        @include make-container();
+        @include max-container();
+    }
+    &__row{
+        @include make-row();
+    }
+    &__logo{
+        @include make-col-ready();
+        @include media-breakpoint-up(md){
+            @include make-col(3)
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    &__menu{
+        @include make-col-ready();
+        @include media-breakpoint-up(md){
+            @include make-col(6)
+        }        
+    }
+    &__btn{
+        @include make-col-ready();
+        @include media-breakpoint-up(md){
+            @include make-col(3)
+        }        
+    }
+}

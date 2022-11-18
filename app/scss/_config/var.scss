@@ -1,0 +1,42 @@
+// colors
+$text: #081F32;
+$accent: #1B75BB;
+// custum font
+$gm: "gelasio-medium";
+$gb: "gelasio-bold";
+ 
+
+// Font-awesome
+$fa-font-path: "../font" !default;
+
+// Bootstrap icons
+$bootstrap-icons-font-dir: "../../font" !default; 
+
+// Grid count
+$grid-columns: 12;
+
+// Grid gutter
+$grid-gutter-width: 1.5rem;
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+// Container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+) !default;
+
+@import "_mixins/flex";
+@import "_mixins/media";
+

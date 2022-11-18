@@ -1,0 +1,24 @@
+.menu{
+    ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        list-style-type: none;
+        li{
+            margin-right: 42px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: transparentize($text,.3);
+        font-family: $gb;
+    }
+    &-active{
+        a{
+            color: $accent;
+        }
+    }
+}

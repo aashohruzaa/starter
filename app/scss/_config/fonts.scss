@@ -1,0 +1,25 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-regular","../font/Roboto-Regular",400);
+@include font-face("roboto-light","../font/Roboto-Light",300);
+@include font-face("roboto-bold","../font/Roboto-Bold",700);
+@include font-face("gelasio-medium","../font/Gelasio-medium",500);
+@include font-face("gelasio-bold","../font/Gelasio-Bold",700);
+
+// Font regular
+@mixin regular{
+    font-family: "roboto-regular", sans-serif;
+    font-weight: normal;
+}
+
+// Font light
+@mixin light{
+    font-family: "roboto-light", sans-serif;
+    font-weight: 300;
+}
+
+// Font regular
+@mixin bold{
+    font-family: "roboto-bold", sans-serif;
+    font-weight: bold;
+}

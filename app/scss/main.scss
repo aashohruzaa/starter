@@ -1,0 +1,26 @@
+// Fonts
+@import "_config/fonts";
+
+// Settings
+@import "_config/var";
+
+
+body{
+    padding: 0;
+    margin: 0;
+    @include regular;
+    a{
+        min-width: 100%;
+    }
+}
+img{
+    max-width: 100%;
+}
+
+// Libs
+@import "libs/*.scss";
+
+// Style
+@import "style/*.scss";
+
+

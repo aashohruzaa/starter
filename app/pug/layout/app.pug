@@ -1,0 +1,17 @@
+include ../include/_var
+include ../blocks/*.pug
+block var
+doctype html
+html(lang="en")
+    head
+       include ../include/_head
+    body 
+        block header    
+            include header 
+        
+        block content 
+
+        block footer 
+            include footer 
+            
+        include ../include/_script

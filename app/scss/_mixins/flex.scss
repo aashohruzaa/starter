@@ -1,0 +1,18 @@
+// Vertical
+@mixin flex-v{
+    display: flex;
+    align-items: center;
+}
+
+// Gorizontal
+@mixin flex-g{
+    display: flex;
+    justify-content: center;
+}
+
+// Center
+@mixin flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
